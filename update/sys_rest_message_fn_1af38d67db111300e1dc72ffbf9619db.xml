@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>GetIPInfo</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>IPInfo [ GetIPInfo ]</qualified_name>
+        <rest_endpoint> https://ipinfo.io/${ipaddress}/${specific_field}</rest_endpoint>
+        <rest_message display_value="IPInfo">bcd3c1efdb911300e1dc72ffbf96198c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>gosia.urbanska</sys_created_by>
+        <sys_created_on>2018-04-12 03:39:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1af38d67db111300e1dc72ffbf9619db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetIPInfo</sys_name>
+        <sys_package display_value="IPLookup" source="x_12442_iplookup">744bbf93db111300e1dc72ffbf961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">744bbf93db111300e1dc72ffbf961991</sys_scope>
+        <sys_update_name>sys_rest_message_fn_1af38d67db111300e1dc72ffbf9619db</sys_update_name>
+        <sys_updated_by>gosia.urbanska</sys_updated_by>
+        <sys_updated_on>2018-04-12 04:03:37</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

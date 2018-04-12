@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>ipaddress</name>
+        <rest_message_function display_value="GetIPInfo">1af38d67db111300e1dc72ffbf9619db</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>gosia.urbanska</sys_created_by>
+        <sys_created_on>2018-04-12 03:55:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>03b74963dbd11300e1dc72ffbf961917</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ipaddress</sys_name>
+        <sys_package display_value="IPLookup" source="x_12442_iplookup">744bbf93db111300e1dc72ffbf961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IPLookup">744bbf93db111300e1dc72ffbf961991</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_03b74963dbd11300e1dc72ffbf961917</sys_update_name>
+        <sys_updated_by>gosia.urbanska</sys_updated_by>
+        <sys_updated_on>2018-04-12 03:57:41</sys_updated_on>
+        <type>string</type>
+        <value>8.8.8.8</value>
+    </sys_rest_message_fn_parameters>
+</record_update>
